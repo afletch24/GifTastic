@@ -65,7 +65,6 @@ $(document).ready(function(){
 
     })
 
-
     $(document).on("click", 'img', function() {
     var state = $(this).attr("data-state");        
         if (state === "still") {
